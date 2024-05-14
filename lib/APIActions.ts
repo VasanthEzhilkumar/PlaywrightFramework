@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'fs'; 
 import { APIResponse, expect } from '@playwright/test';
 
 export class APIActions {
@@ -19,6 +19,7 @@ export class APIActions {
                 break;
             }
         }
+        
         expect(status, `${fieldNames} was not present in ${responseType}`).toBe(true);
     }
 

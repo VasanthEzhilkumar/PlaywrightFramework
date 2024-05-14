@@ -43,7 +43,7 @@ export class AlertsFrameWindowsPage {
         const newWindow = await pagePromise;
         await newWindow.waitForLoadState();
         const newWindowUrlActual = newWindow.url();
-        //Verify New Tab URL
+        //Verify The New Tab URL
         expect(newWindowUrlActual == newWindowUrlExpect).toBeTruthy();
         //Close New Window
         await newWindow.close();
