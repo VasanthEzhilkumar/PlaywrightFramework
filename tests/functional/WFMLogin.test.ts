@@ -1,7 +1,7 @@
 import test from '@lib/BaseTest';
 
 
-test(`@Smoke Verify Book Store Login`, async ({ loginPage, webActions, wfmhomepage, wfmscheduleplannerpage }) => {
+test(`@Smoke Verify the Scheduling features `, async ({ loginPage, webActions, wfmhomepage, wfmscheduleplannerpage }) => {
     await test.step(`Navigate to Application`, async () => {
         await loginPage.navigateToURL();
     });
@@ -24,7 +24,7 @@ test(`@Smoke Verify Book Store Login`, async ({ loginPage, webActions, wfmhomepa
     await test.step('Search for the Employee Rule Violation' ,async () => {
         await wfmscheduleplannerpage.clickonRuleViolationTab();
         await wfmscheduleplannerpage.SearchEmpRuleViolation();
-
+        
     });
 
 }); 
