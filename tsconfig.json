@@ -6,6 +6,7 @@
       "@pages/*":["pageFactory/pageRepository/*"],
       "@objects/*":["pageFactory/objectRepository/*"],
       "@lib/*":["lib/*"],
-    }                             
+    } 
+       // Enable downlevelIteration
   }
 }

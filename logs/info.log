@@ -38,3 +38,119 @@
 {"level":"info","message":"Test Case Completed : @Smoke Verify Widgets Page Status : passed"}
 {"level":"info","message":"Test Case Started : @Smoke Verify Alerts, Frame & Windows Page"}
 {"level":"info","message":"Test Case Completed : @Smoke Verify Alerts, Frame & Windows Page Status : passed"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Alerts, Frame & Windows Page Status : failed"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Book Store Login Status : timedOut"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"error","message":"Error: Error: tests\\functional\\WFMLogin.test.ts:6:5: Test has unknown parameter \"wfmhomepage\"."}
+{"level":"error","message":"Error: Error: tests\\functional\\WFMLogin.test.ts:6:5: Test has unknown parameter \"wfmhomepage\"."}
+{"level":"error","message":"Error: Error: tests\\functional\\WFMLogin.test.ts:6:5: Test has unknown parameter \"wfmhomepage\"."}
+{"level":"error","message":"Error: Error: tests\\functional\\WFMLogin.test.ts:6:5: Test has unknown parameter \"wfmhomepage\"."}
+{"level":"error","message":"Error: Error: tests\\functional\\WFMLogin.test.ts:6:5: Test has unknown parameter \"wfmhomepage\"."}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Click on Time card to Open Schedule"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Book Store Login Status : interrupted"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Book Store Login Status : passed"}

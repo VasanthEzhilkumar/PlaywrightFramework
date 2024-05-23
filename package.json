@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "test:single": "npx playwright test AlertsFrameWindows.test.ts --project=Chrome",
+    "test:single": "npx playwright test WFMLogin.test.ts --project=Chrome",
     "test:parallel": "npx playwright test --grep @Smoke --project=Chrome",
     "test:serial": "npx playwright test --grep @Smoke --workers=1 --project=Chrome",
     "test:ui": "npx playwright test --grep @Smoke --ui",
@@ -18,10 +18,8 @@
     "lighthouse": "node tests/lighthouse/Lighthouse.js",
     "test:accessibility": "npx playwright test Axe.test.ts --project=Chrome"
   },
-
   "dependencies": {
     "@axe-core/playwright": "^4.9.0",
-    "@playwright/test": "^1.44.0",
     "@types/adm-zip": "^0.5.5",
     "@types/crypto-js": "^4.2.2",
     "@typescript-eslint/eslint-plugin": "^7.8.0",
@@ -32,10 +30,13 @@
     "eslint": "^8.57.0",
     "eslint-plugin-import": "^2.29.1",
     "exceljs": "^4.4.0",
-    "npm": "^18.17.0",
     "pdfjs-dist-es5": "^2.13.216",
     "pg": "^8.11.5",
     "typescript": "^5.4.5",
     "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12"
   }
 }

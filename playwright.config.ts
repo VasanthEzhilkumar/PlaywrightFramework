@@ -2,10 +2,10 @@ import { PlaywrightTestConfig, devices } from '@playwright/test';
 import { testConfig } from './testConfig';
 const ENV = process.env.npm_config_ENV;
 
-if (!ENV || ![`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
+/* if (!ENV || !['WFM',`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
   console.log(`Please provide a correct environment value after command like "--ENV=qa|dev|qaApi|devApi"`);
   process.exit();
-}
+} */
 
 const config: PlaywrightTestConfig = {
 
@@ -32,8 +32,8 @@ const config: PlaywrightTestConfig = {
         channel: `chrome`,
 
         //Picks Base Url based on User input
-        baseURL: testConfig[ENV],
-
+        //baseURL: testConfig[ENV],
+        baseURL: testConfig.WFM,
         //Browser Mode
         headless: false,
 
