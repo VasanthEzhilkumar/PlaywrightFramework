@@ -18,9 +18,9 @@ export class WebActions {
     async decipherPassword(): Promise<string> {
         const key = `SECRET`;
         //ENCRYPT
-        // const cipher = CryptoJS.AES.encrypt('Demouat@09',key);
+        // const cipher = CryptoJS.AES.encrypt('WFMManagerPassword@05!',key);
         // console.log(cipher.toString());
-        return CryptoJS.AES.decrypt(testConfig.password, key).toString(CryptoJS.enc.Utf8);
+        return CryptoJS.AES.decrypt(testConfig.WFMPassword, key).toString(CryptoJS.enc.Utf8);
     }
 
     async delay(time: number): Promise<void> {

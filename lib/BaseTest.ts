@@ -1,55 +1,79 @@
-import { TestInfo, test as baseTest } from '@playwright/test';
-import { LoginPage } from '@pages/LoginPage';
-import { ElementsPage } from '@pages/ElementsPage';
-import { AlertsFrameWindowsPage } from '@pages/AlertsFrameWindowsPage';
-import { WidgetsPage } from '@pages/WidgetsPage';
-import { InteractionsPage } from '@pages/InteractionsPage';
-import { WebActions } from '@lib/WebActions';
-import AxeBuilder from '@axe-core/playwright';
-import { WFMHomePage } from '@pages/WFMHomePage';
-import { WFMSchedulePlannerPage } from '@pages/WFMScheduleplannerPage';
+// import { test as baseTest } from '@playwright/test';
+// import { loginpage } from '@pages/loginPage';
+// import { homepage } from '@pages/homePage';
+// import { hireEmployeePage } from '@pages/hireEmployeePage';
+// import { employeeInboxPage } from '@pages/employeeInboxpage';
+// import { proxyPage } from '@pages/proxyPage';
+// import { HrInboxPage } from '@pages/hrInboxPage';
+// import { appCommons } from './appCommons';
+
+// const test = baseTest.extend<{
+//   login: loginpage;
+//   home: homepage;
+//   hireEmployee: hireEmployeePage;
+//   appCommon: appCommons;
+//   empInboxpage: employeeInboxPage;
+//   proxy: proxyPage;
+//   hrInbxPage: HrInboxPage;
+//   givenname: string;
+//   familyname: string;
+//   jobprofile: string;
+// }>({
+//   login: async ({ page, context }, use) => {
+//     await use(new loginpage(page, context));
+//   },
+//   home: async ({ page, context }, use) => {
+//     await use(new homepage(page, context));
+//   },
+//   hireEmployee: async ({ page, context }, use) => {
+//     await use(new hireEmployeePage(page, context));
+//   },
+//   appCommon: async ({ page, context }, use) => {
+//     await use(new appCommons(page, context));
+//   },
+//   // empInboxpage: async ({ page,  givenname, familyname,jobprofile,context }, use) => {
+//   //   await use(new employeeInboxPage(page, givenname, familyname,jobprofile, context));
+//   // },
+//   proxy: async ({ page, context }, use) => {
+//     await use(new proxyPage(page, context));
+//   },
+//   // hrInbxPage: async ({ page, context, givenname, familyname }, use) => {
+//   //   await use(new HrInboxPage(page, givenname, familyname, context));
+//   // },
+// });
+
+// export default test;
+
+import { test as baseTest } from '@playwright/test';
+import { loginpage } from '@pages/loginPage';
+import { homepage } from '@pages/homePage';
+import { hireEmployeePage } from '@pages/hireEmployeePage';
+import { proxyPage } from '@pages/proxyPage';
+import { appCommons } from './appCommons';
 
 const test = baseTest.extend<{
-    webActions: WebActions;
-    loginPage: LoginPage;
-    elementsPage: ElementsPage;
-    alertsFrameWindowsPage: AlertsFrameWindowsPage;
-    widgetsPage: WidgetsPage;
-    interactionsPage: InteractionsPage;
-    makeAxeBuilder: AxeBuilder;
-    testInfo: TestInfo;
-    wfmhomepage: WFMHomePage;
-    wfmscheduleplannerpage: WFMSchedulePlannerPage;
+  login: loginpage;
+  home: homepage;
+  hireEmployee: hireEmployeePage;
+  appCommon: appCommons;
+  proxy: proxyPage;
 }>({
-    webActions: async ({ page, context }, use) => {
-        await use(new WebActions(page, context));
-    },
-    loginPage: async ({ page, context }, use) => {
-        await use(new LoginPage(page, context));
-    },
-    elementsPage: async ({ page, context }, use) => {
-        await use(new ElementsPage(page, context));
-    },
-    alertsFrameWindowsPage: async ({ page, context }, use) => {
-        await use(new AlertsFrameWindowsPage(page, context));
-    },
-    widgetsPage: async ({ page, context }, use) => {
-        await use(new WidgetsPage(page, context));
-    },
-    interactionsPage: async ({ page, context }, use) => {
-        await use(new InteractionsPage(page, context));
-    },
-    makeAxeBuilder: async ({ page }, use) => {
-        await use(new AxeBuilder({ page })
-            .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
-            .exclude('#commonly-reused-element-with-known-issue'));
-    },
-    wfmhomepage: async ({page, context}, use) => {
-        await use(new WFMHomePage(page, context));
-    },
-    wfmscheduleplannerpage: async({page, context}, use) => {
-        await use(new WFMSchedulePlannerPage(page, context));
-    }
-})
+  login: async ({ page, context }, use) => {
+    await use(new loginpage(page, context));
+  },
+  home: async ({ page, context }, use) => {
+    await use(new homepage(page, context));
+  },
+  hireEmployee: async ({ page, context }, use) => {
+    await use(new hireEmployeePage(page, context));
+  },
+  appCommon: async ({ page, context }, use) => {
+    await use(new appCommons(page, context));
+  },
+  proxy: async ({ page, context }, use) => {
+    await use(new proxyPage(page, context));
+  },
+});
 
 export default test;
+

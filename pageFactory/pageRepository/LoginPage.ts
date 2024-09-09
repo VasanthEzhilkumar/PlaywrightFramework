@@ -1,60 +1,39 @@
 import { Page, BrowserContext, Locator, expect } from '@playwright/test';
-import { WebActions } from "@lib/WebActions";
-import { testConfig } from '../../testConfig';
-import { PrimaryExpression } from 'typescript';
 
-let webActions: WebActions;
+export  class loginpage {
+  readonly page: Page;
+  readonly username: Locator;
+  readonly password: Locator;
+  readonly signIn: Locator;
 
-export class LoginPage {
-    readonly page: Page;
-    readonly context: BrowserContext;
-    readonly USERNAME_EDITBOX: Locator;
-    readonly PASSWORD_EDITBOX: Locator;
-    readonly LOGIN_BUTTON: Locator;
-    readonly BOOKS_SEARCH_BOX: Locator;
-    readonly USERNAMEWFM_EDITBOX:Locator;
-    readonly PASSWORDWFM_EDITBOX:Locator;
-    readonly WFMLOGIN_BUTTON: Locator;
+  constructor(page: Page,context: BrowserContext) {
+    this.page = page;
+    this.username = page.locator('[aria-label="Username"]');
+    this.password = page.locator('[aria-label="Password"]');
+    this.signIn = page.locator('button:has-text("Sign In")');
+  }
 
-    constructor(page: Page, context: BrowserContext) {
-        this.page = page;
-        this.context = context;
-        webActions = new WebActions(this.page, this.context);
-        this.USERNAME_EDITBOX = page.locator('#userName');
-        this.PASSWORD_EDITBOX = page.locator('#password');
-        this.USERNAMEWFM_EDITBOX = page.getByLabel('Username');
-        this.PASSWORDWFM_EDITBOX = page.getByLabel('Password');
-        this.LOGIN_BUTTON = page.locator('#login');
-        this.BOOKS_SEARCH_BOX = page.getByPlaceholder('Type to search');
-        this.WFMLOGIN_BUTTON = page.getByRole('button', { name: 'Log In' });
+  async goto(country: string ) {
+
+    if (country.includes("Romania"))
+    {
+      await this.page.goto('');
+      
     }
-
-    async navigateToURL(): Promise<void> {
-        await this.page.goto("/");
+    if (country.includes("Slovakia"))
+    {
+      await this.page.goto ('https://wd3-impl.workday.com/wday/authgwy/primark17/login.htmld');
+      //await this.page.goto('https://wd3-impl.workday.com/wday/authgwy/primark11/login.htmld');
     }
+  }
 
-    async clickOnLoginMainButton(): Promise<void> {
-        await this.LOGIN_BUTTON.click();
-    }
-
-    async loginToApplication(): Promise<void> {
-        const decipherPassword = await webActions.decipherPassword();
-        await this.USERNAME_EDITBOX.fill(testConfig.username);
-        await this.PASSWORD_EDITBOX.fill(decipherPassword);
-        await this.LOGIN_BUTTON.click();
-    }
-
-    async verifyProfilePage(): Promise<void> {
-        await expect(this.BOOKS_SEARCH_BOX).toBeVisible();
-    }
-
-    async logininTOWFMApplication(): Promise<void> {
-        await this.USERNAMEWFM_EDITBOX.fill(testConfig.WFMUSername);
-        await this.PASSWORDWFM_EDITBOX.fill(testConfig.WFMPassword);
-        await this.WFMLOGIN_BUTTON.click()
-
-        await this.page.pause();
-
-    }
-
+  async sigIn(username:string, password:string) {
+    
+    await this.username.fill(username);
+    await this.password.fill(password);
+    await this.signIn.click();
+    await this.page.waitForLoadState();
+    //await this.page.waitForTimeout(2000)
+  }
 }
+

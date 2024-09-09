@@ -1632,241 +1632,56 @@
 {"level":"info","message":"Executing Step : Login into WFM Application as Manager"}
 {"level":"info","message":"Executing Step : Open Notification and check the TimeOff request"}
 {"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Alexander, Bridger Status : failed"}
-{"level":"error","message":"Error: Error: lib\\BaseTest.ts:14:23: Fixture \"empInboxpage\" has unknown parameter \"givenname\"."}
-{"level":"error","message":"Error: Error: lib\\BaseTest.ts:14:23: Fixture \"empInboxpage\" has unknown parameter \"givenname\"."}
-{"level":"error","message":"Error: Error: lib\\BaseTest.ts:14:23: Fixture \"empInboxpage\" has unknown parameter \"givenname\"."}
-{"level":"error","message":"Error: Error: lib\\BaseTest.ts:14:23: Fixture \"empInboxpage\" has unknown parameter \"givenname\"."}
-{"level":"error","message":"Error: Error: tests\\WFM\\WFMLogin.test.ts:8:5: Test has unknown parameter \"loginPage\"."}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for TEO HireSeventeenONE"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for TEO HireSeventeenONE Status : skipped"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for RetailAssistant Hirefifty"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for RetailAssistant Hirefifty Status : skipped"}
-{"level":"error","message":"Error: Error: tests\\WFM\\WFMLogin.test.ts:8:5: Test has unknown parameter \"loginPage\"."}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for TEO HireSeventeenONE"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for TEO HireSeventeenONE"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for TEO HireSeventeenONE Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for RetailAssistant Hirefifty"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for RetailAssistant Hirefifty Status : passed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : passed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : passed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for TEO HireSeventeenONE"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for TEO HireSeventeenONE"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : failed"}
-{"level":"info","message":"Test Case Started : test"}
-{"level":"info","message":"Test Case Completed : test Status : passed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : test"}
-{"level":"info","message":"Test Case Completed : test Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for REGFinal HireSeventeen Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for REGFinal HireSeventeen"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Playwrightone"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo PlaywrightTWO"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Demo PlaywrightTWO Status : failed"}
-{"level":"error","message":"Error: Error: lib\\BaseTest.ts:10:23: Fixture \"empInboxpage\" has unknown parameter \"givenname\"."}
-{"level":"error","message":"Error: Error: tests\\WFM\\Hire.test.ts:133:9: Test has unknown parameter \"empInboxpage\"."}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo PlaywrightTWO"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo PlaywrightTHREE"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo PlaywrightFOUR"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Demo PlaywrightFOUR Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo PlaywrightFOUR"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo PlaywrightFIVE"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Demo PlaywrightFIVE Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo PlaywrightFIVE"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Demo PlaywrightFIVE Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo PlaywrightFIVE"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo PlaywrightFIVE"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Demo PlaywrightFIVE Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo PlaywrightSIX"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo PlaywrightSEVEN"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Demo PlaywrightSEVEN Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Eight"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Demo Eight Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Eight"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo One"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Demo One Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Two"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Three"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Four"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Five"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Six"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Seven"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Demo Seven Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Seven"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Seven"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Seven"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Eight"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Eight"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Eight"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for RetailAssistant Hirefifty"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for RetailAssistant Hirefifty Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for RetailAssistant Hirefifty"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for RetailAssistant Hirefifty Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Demo Eight"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for SKPly One Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for SKPly One Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for SKPly One Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for SKPly One Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for SKPly One Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for SKPly One"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest DemoOne"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest DemoTwo"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for FullTest DemoTwo Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest DemoThree"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for FullTest DemoThree Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest DemoFour"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for FullTest DemoFour Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest DemoFive"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for FullTest DemoFive Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest DemoSix"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for FullTest DemoSix Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest DemoSeven"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest DemoEight"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for FullTest DemoEight Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest DemoNine"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest DemoTen"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for FullTest DemoTen Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest DemoElve"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for FullTest DemoElve Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest FinalDemo"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest FinalDemo"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for FullTest FinalDemo Status : failed"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest FinalTest"}
-{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for FullTest FinalTestOne"}
-{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for FullTest FinalTestOne Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTestTwo"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalTestTwo Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTestTHree"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalTestTHree Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTestFour"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalTestFour Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTestFive"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalTestFive Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTestsix"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalTestsix Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTestseven"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalTestseven Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTestEight"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalTestEight Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTestNine"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalTestNine Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTestTen"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalTestTen Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalOne"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalOne Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTwo"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTwo"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalTwo Status : passed"}
-{"level":"error","message":"SyntaxError: C:\\Users\\vasanthkumar.ezhilku\\OneDrive - Expleo France\\WorkdaySuite\\tests\\WFM\\Hire_SK.test.ts: Missing semicolon. (165:4)\n\n\u001b[0m \u001b[90m 163 |\u001b[39m \u001b[90m//   });\u001b[39m\n \u001b[90m 164 |\u001b[39m \u001b[90m// }\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 165 |\u001b[39m \u001b[33mCopy\u001b[39m code\n \u001b[90m     |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 166 |\u001b[39m \u001b[36mimport\u001b[39m test \u001b[36mfrom\u001b[39m \u001b[32m'@lib/BaseTest'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 167 |\u001b[39m \u001b[36mimport\u001b[39m { excelToJson\u001b[33m,\u001b[39m getExcelFilePath } \u001b[36mfrom\u001b[39m \u001b[32m'@lib/ExceltoJsonUtil'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 168 |\u001b[39m \u001b[36mimport\u001b[39m { employeeInboxPage } \u001b[36mfrom\u001b[39m \u001b[32m'@pages/employeeInboxpage'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalThree"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalThree Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalFOUR"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalFOUR Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalFOUR"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalFOUR Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalFive"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalFive Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalSix"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalSix Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalSeven"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalSeven Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalEight"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalEight Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalEight"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalEight Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalEight"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalEight Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalEight"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalEight Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalEight"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalEight Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee TEO HireSeventeenONE"}
-{"level":"info","message":"Test Case Completed : @Hire Employee TEO HireSeventeenONE Status : skipped"}
-{"level":"info","message":"Test Case Started : @Hire Employee RetailAssistant Hirefifty"}
-{"level":"info","message":"Test Case Completed : @Hire Employee RetailAssistant Hirefifty Status : skipped"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalEight"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalEight Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee TEO HireSeventeenONE"}
-{"level":"info","message":"Test Case Completed : @Hire Employee TEO HireSeventeenONE Status : skipped"}
-{"level":"info","message":"Test Case Started : @Hire Employee RetailAssistant Hirefifty"}
-{"level":"info","message":"Test Case Completed : @Hire Employee RetailAssistant Hirefifty Status : skipped"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalEight"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalEight Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee TEO HireSeventeenONE"}
-{"level":"info","message":"Test Case Completed : @Hire Employee TEO HireSeventeenONE Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee RetailAssistant Hirefifty"}
-{"level":"info","message":"Test Case Completed : @Hire Employee RetailAssistant Hirefifty Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalNine"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalNine Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee FullTest FinalTen"}
-{"level":"info","message":"Test Case Completed : @Hire Employee FullTest FinalTen Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Completed : @Hire Employee SlovakiaWFMReRun E2ERASOne Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Completed : @Hire Employee SlovakiaWFMReRun E2ERASOne Status : failed"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Completed : @Hire Employee SlovakiaWFMReRun E2ERASOne Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Completed : @Hire Employee SlovakiaWFMReRun E2ERASOne Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Completed : @Hire Employee SlovakiaWFMReRun E2ERASOne Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Completed : @Hire Employee SlovakiaWFMReRun E2ERASOne Status : passed"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Started : @Hire Employee SlovakiaWFMReRun E2ERASOne"}
-{"level":"info","message":"Test Case Completed : @Hire Employee SlovakiaWFMReRun E2ERASOne Status : passed"}
+{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Alexander, Bridger"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Open TimeCard page and perform TimeOff action"}
+{"level":"info","message":"Executing Step : Logout from WFM Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application as Manager"}
+{"level":"info","message":"Executing Step : Open Notification and check the TimeOff request"}
+{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Alexander, Bridger Status : failed"}
+{"level":"info","message":"Test Case Started : @WFM Submit Leave Request for Alexander, Bridger"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Open TimeCard page and perform TimeOff action"}
+{"level":"info","message":"Executing Step : Logout from WFM Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application as Manager"}
+{"level":"info","message":"Executing Step : Open Notification and check the TimeOff request"}
+{"level":"info","message":"Test Case Completed : @WFM Submit Leave Request for Alexander, Bridger Status : failed"}
+{"level":"info","message":"Test Case Started : @WFM Verify the Scheduling features "}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Verify Manage schedule time card Exists"}
+{"level":"info","message":"Executing Step : Open schdule Planner page"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation: 80010054"}
+{"level":"info","message":"Executing Step : Search for the Employee Rule Violation: 80010120"}
+{"level":"info","message":"Test Case Completed : @WFM Verify the Scheduling features  Status : passed"}
+{"level":"info","message":"Test Case Started : @WFM Time card punch for  Cross, Lola"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Open TimeCard page"}
+{"level":"info","message":"Executing Step : Search for the Employee in Time Card Page"}
+{"level":"info","message":"Test Case Completed : @WFM Time card punch for  Cross, Lola Status : passed"}
+{"level":"info","message":"Test Case Started : @WFM Time card punch for  Alexander, Bridger"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Open TimeCard page"}
+{"level":"info","message":"Executing Step : Search for the Employee in Time Card Page"}
+{"level":"info","message":"Test Case Completed : @WFM Time card punch for  Alexander, Bridger Status : passed"}
+{"level":"info","message":"Test Case Started : @WFM Verify the TimeCard Total for Alexander, Bridger"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Open TimeCard page"}
+{"level":"info","message":"Executing Step : Search for the Employee in Time Card Page"}
+{"level":"info","message":"Test Case Completed : @WFM Verify the TimeCard Total for Alexander, Bridger Status : passed"}
+{"level":"info","message":"Test Case Started : @WFM Verify the TimeCard Total for Cross, Lola"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
+{"level":"info","message":"Executing Step : Open TimeCard page"}
+{"level":"info","message":"Executing Step : Search for the Employee in Time Card Page"}
+{"level":"info","message":"Test Case Completed : @WFM Verify the TimeCard Total for Cross, Lola Status : passed"}
+{"level":"info","message":"Test Case Started : @WFM Verify the Scheduling features "}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Test Case Started : @WFM Verify the Scheduling features "}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login into WFM Application"}
