@@ -1,5 +1,5 @@
 export const testConfig = {
-    WFM:'https://primark-uat.npr.mykronos.com/wfd/home',
+    WFM:'https:/',
     qa: `https://demoqa.com`,
     dev: ``,
     qaApi: `https://reqres.in`,
@@ -9,9 +9,9 @@ export const testConfig = {
     WFMUSername: `80010054`,
     WFMPassword:'U2FsdGVkX19oSsVVmWS+G5k0dSix5rPohHrFgR+wWWa25xVBS94fizpzuqukQi4l',
     WFMEmpUSername: `PME1`,
-    WFMEmpPassword:'Thisisyourpassword12£',
+    WFMEmpPassword:'',
     WFMMgrUSername: `PM5M`,
-    WFMMgrPassword:'Thisisyourpassword12£!',
+    WFMMgrPassword:'!',
     waitForElement: 120000,
     dbUsername: ``,
     dbPassword: ``,
