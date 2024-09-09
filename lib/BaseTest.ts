@@ -1,25 +1,23 @@
 import { TestInfo, test as baseTest } from '@playwright/test';
 import { LoginPage } from '@pages/LoginPage';
-import { ElementsPage } from '@pages/ElementsPage';
-import { AlertsFrameWindowsPage } from '@pages/AlertsFrameWindowsPage';
-import { WidgetsPage } from '@pages/WidgetsPage';
-import { InteractionsPage } from '@pages/InteractionsPage';
 import { WebActions } from '@lib/WebActions';
 import AxeBuilder from '@axe-core/playwright';
 import { WFMHomePage } from '@pages/WFMHomePage';
 import { WFMSchedulePlannerPage } from '@pages/WFMScheduleplannerPage';
+import { WFMTimecardPage } from '@pages/WFMTimecardPage';
+import { WFMNotificationPage } from '@pages/WFMNotificationPage';
+
+
 
 const test = baseTest.extend<{
     webActions: WebActions;
     loginPage: LoginPage;
-    elementsPage: ElementsPage;
-    alertsFrameWindowsPage: AlertsFrameWindowsPage;
-    widgetsPage: WidgetsPage;
-    interactionsPage: InteractionsPage;
-    makeAxeBuilder: AxeBuilder;
     testInfo: TestInfo;
     wfmhomepage: WFMHomePage;
     wfmscheduleplannerpage: WFMSchedulePlannerPage;
+    wfmtimecardpage: WFMTimecardPage;
+    wfmnotificationpage: WFMNotificationPage;
+   
 }>({
     webActions: async ({ page, context }, use) => {
         await use(new WebActions(page, context));
@@ -27,29 +25,19 @@ const test = baseTest.extend<{
     loginPage: async ({ page, context }, use) => {
         await use(new LoginPage(page, context));
     },
-    elementsPage: async ({ page, context }, use) => {
-        await use(new ElementsPage(page, context));
-    },
-    alertsFrameWindowsPage: async ({ page, context }, use) => {
-        await use(new AlertsFrameWindowsPage(page, context));
-    },
-    widgetsPage: async ({ page, context }, use) => {
-        await use(new WidgetsPage(page, context));
-    },
-    interactionsPage: async ({ page, context }, use) => {
-        await use(new InteractionsPage(page, context));
-    },
-    makeAxeBuilder: async ({ page }, use) => {
-        await use(new AxeBuilder({ page })
-            .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
-            .exclude('#commonly-reused-element-with-known-issue'));
-    },
     wfmhomepage: async ({page, context}, use) => {
         await use(new WFMHomePage(page, context));
     },
     wfmscheduleplannerpage: async({page, context}, use) => {
         await use(new WFMSchedulePlannerPage(page, context));
-    }
+    },
+    wfmtimecardpage: async({page, context}, use) => {
+        await use(new WFMTimecardPage(page, context));
+    },
+    wfmnotificationpage: async({page,context}, use) =>{
+        await use(new WFMNotificationPage(page,context));
+    },
+
 })
 
 export default test;

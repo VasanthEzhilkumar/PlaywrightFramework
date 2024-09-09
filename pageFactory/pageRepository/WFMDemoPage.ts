@@ -5,7 +5,7 @@ import { PrimaryExpression, forEachChild } from 'typescript';
 
 
 
-export class WFMHomePage {
+export class WFMDemoPage {
     readonly page: Page;
     readonly context: BrowserContext;
     readonly MANAGESCHEDULE: Locator;
@@ -40,7 +40,7 @@ export class WFMHomePage {
         this.SCHEDULEPLANNERLINK = page.getByLabel('Schedule Planner link');
         this.TIMECARD = page.getByLabel('Time Menu');
         this.TIMECARDLINK = page.getByLabel('Timecards link')
-        this.GL_ANNUAL_LEAVE_P = page.locator('#selectReasonId');
+        this.GL_ANNUAL_LEAVE_P = page.getByText('GL-Annual Leave-P');
         this.PICK_DATES = page.getByPlaceholder('Pick dates');
         this.START_DATE = page.getByLabel('Start date');
         this.END_DATE = page.getByLabel('End Date');
@@ -52,7 +52,7 @@ export class WFMHomePage {
         this.LOGOUT = page.getByLabel('Sign Out');
     }
 
-    async clickonTimeCard(): Promise<void> {
+    async demotest(): Promise<void> {
         await this.TIMECARDS.click();
     }
 
@@ -81,39 +81,19 @@ export class WFMHomePage {
     }
     
 
-    async TimeOff(Start_Date: string, End_Date: string, Reason: string): Promise<string> {
-        await this.page.getByText('SK-Annual Leave.: Multiple').click();
-        await this.page.locator('#ngx-popover-1').getByText(Reason).click();
+    async TimeOff(Start_Date: string ,End_Date: string): Promise<void> {
+        await this.GL_ANNUAL_LEAVE_P.click();
+        await this.page.locator('#ngx-popover-1').getByText('GL-Annual Leave-P').click();
         await this.PICK_DATES.click();
         await this.START_DATE.fill(Start_Date);
         await this.END_DATE.clear();
         await this.END_DATE.fill(End_Date);
         await this.APPLY_BUTTON.click();
         await this.SELECT_DURATION.click();
-        await this.page.waitForTimeout(2000);
         await this.FULL_DURATION.click();
-        await this.page.waitForTimeout(2000);
         await this.SUBMIT.click();
-        await this.page.waitForTimeout(2000);
-    
-        
-    
-        if (await this.page.getByRole('button', { name: 'Submit Another Request' }).count()>0) {
-            
-            return "Passed"
-            
-            
-        }
-        else {
-            // Check for the error message after submission
-            const errorMessageLocator = await this.page.locator('krn-ng-single-message div').textContent();
-            const errorMessageVisible = await this.page.getByText('1 ErrorClose').isVisible();
-            console.error('Test failed: '+errorMessageLocator);
-            return "Failed"
-           
-        }
     }
-    
+
     // async  OpenNotification(): Promise<void> {
     //     if (await this.NOTIFICATIONTILELINK.isVisible()) {
     //         await this.NOTIFICATIONTILELINK.click();

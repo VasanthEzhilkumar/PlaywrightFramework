@@ -18,9 +18,9 @@ export class WebActions {
     async decipherPassword(): Promise<string> {
         const key = `SECRET`;
         //ENCRYPT
-        // const cipher = CryptoJS.AES.encrypt('Demouat@09',key);
-        // console.log(cipher.toString());
-        return CryptoJS.AES.decrypt(testConfig.password, key).toString(CryptoJS.enc.Utf8);
+        //  const cipher = CryptoJS.AES.encrypt('WFMManagerPassword@05!',key);
+        //  console.log(cipher.toString());
+        return CryptoJS.AES.decrypt(testConfig.WFMPassword, key).toString(CryptoJS.enc.Utf8);
     }
 
     async delay(time: number): Promise<void> {
@@ -74,4 +74,16 @@ export class WebActions {
         const pageTexts = await Promise.all(pageTextPromises);
         return pageTexts.join(' ');
       }
+
+      async getEmployeeName(empNumber: string): Promise<string | null> {
+        const EMP_NAME = this.page.locator(`[personnumber="${empNumber}"]`);
+        const ariaLabel = await EMP_NAME.getAttribute('aria-label');
+        
+        if (!ariaLabel) {
+            console.error(`No element found with personnumber: ${empNumber}`);
+            return null;
+        }
+    
+        return ariaLabel.toString();
+    }
 }

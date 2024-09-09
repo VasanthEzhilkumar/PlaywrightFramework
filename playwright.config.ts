@@ -2,10 +2,10 @@ import { PlaywrightTestConfig, devices } from '@playwright/test';
 import { testConfig } from './testConfig';
 const ENV = process.env.npm_config_ENV;
 
- if (!ENV || !['WFM',`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
+ /*if (!ENV || !['WFM',`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
   console.log(`Please provide a correct environment value after command like "--ENV=qa|dev|qaApi|devApi"`);
   process.exit();
-} 
+} */
 
 const config: PlaywrightTestConfig = {
 
@@ -17,6 +17,8 @@ const config: PlaywrightTestConfig = {
 
   //number of retries if test case fails
   retries: 0,
+  //workers: 2,
+  //fullyParallel : true,
 
   //Reporters
   reporter: [[`./CustomReporterConfig.ts`], [`allure-playwright`], [`html`, { outputFolder: 'html-report', open: 'never' }]],
@@ -24,6 +26,7 @@ const config: PlaywrightTestConfig = {
   projects: [
     {
       name: `Chrome`,
+      
       use: {
         // Configure the browser to use.
         browserName: `chromium`,
@@ -32,10 +35,12 @@ const config: PlaywrightTestConfig = {
         channel: `chrome`,
 
         //Picks Base Url based on User input
-        //baseURL: testConfig[ENV],
+       // baseURL: testConfig[ENV],
         baseURL: testConfig.WFM,
         //Browser Mode
-        headless: true,
+        headless: false,
+        
+        
 
         //Browser height and width
         viewport: { width: 1500, height: 730 },
@@ -45,7 +50,42 @@ const config: PlaywrightTestConfig = {
         acceptDownloads: true,
 
         //Artifacts
-        screenshot: `only-on-failure`,
+        screenshot: 'on',
+        video: `retain-on-failure`,
+        trace: `retain-on-failure`,
+
+        //Slows down execution by ms
+        launchOptions: {
+          slowMo: 0
+        }
+      },
+    },
+   /* {
+      name: `Chrome- 4W`,
+      use: {
+        // Configure the browser to use.
+        browserName: `chromium`,
+
+        //Chrome Browser Config
+        channel: `chrome`,
+
+        //Picks Base Url based on User input
+       // baseURL: testConfig[ENV],
+        baseURL: testConfig.WFM,
+        //Browser Mode
+        headless: false,
+        
+        
+
+        //Browser height and width
+        viewport: { width: 1500, height: 730 },
+        ignoreHTTPSErrors: true,
+
+        //Enable File Downloads in Chrome
+        acceptDownloads: true,
+
+        //Artifacts
+        screenshot: 'on',
         video: `retain-on-failure`,
         trace: `retain-on-failure`,
 
@@ -147,12 +187,13 @@ const config: PlaywrightTestConfig = {
     {
       name: `DB`
     },
+
     {
       name: `API`,
       use: {
         baseURL: testConfig[ENV]
       }
-    }
+    }*/
   ],
 };
 export default config;

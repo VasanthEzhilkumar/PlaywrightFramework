@@ -26,7 +26,8 @@ export class LoginPage {
         this.PASSWORDWFM_EDITBOX = page.getByLabel('Password');
         this.LOGIN_BUTTON = page.locator('#login');
         this.BOOKS_SEARCH_BOX = page.getByPlaceholder('Type to search');
-        this.WFMLOGIN_BUTTON = page.getByRole('button', { name: 'Log In' });
+        this.WFMLOGIN_BUTTON = page.getByRole('button', { name: 'Sign In' });
+
     }
 
     async navigateToURL(): Promise<void> {
@@ -49,11 +50,54 @@ export class LoginPage {
     }
 
     async logininTOWFMApplication(): Promise<void> {
+        const decipherPassword = await webActions.decipherPassword();
         await this.USERNAMEWFM_EDITBOX.fill(testConfig.WFMUSername);
-        await this.PASSWORDWFM_EDITBOX.fill(testConfig.WFMPassword);
+        await this.PASSWORDWFM_EDITBOX.fill(decipherPassword);
         await this.WFMLOGIN_BUTTON.click()
 
-        await this.page.pause();
+       // await this.page.pause();
+
+
+    }
+
+    async changelanguage(): Promise<void> {
+        
+        await this.page.getByRole('link', { name: 'American English' }).click();
+
+    }
+    async logininASWFMApplication(): Promise<void> {
+        
+        await this.USERNAMEWFM_EDITBOX.fill(testConfig.WFMEmpUSername);
+        await this.PASSWORDWFM_EDITBOX.fill(testConfig.WFMEmpPassword);
+        await this.WFMLOGIN_BUTTON.click()
+
+        //await this.page.pause();
+
+    }
+    async logininfromExcel(usrname: any): Promise<void> {
+        const usernameStr: string = String(usrname);
+        await this.USERNAMEWFM_EDITBOX.fill(usernameStr);
+        await this.PASSWORDWFM_EDITBOX.fill(testConfig.WFMEmpPassword);
+        await this.WFMLOGIN_BUTTON.click()
+
+        //await this.page.pause();
+
+    }
+    async logininfromExcelMgr(usrname: any,password: string): Promise<void> {
+        const usernameStr: string = String(usrname);
+        await this.USERNAMEWFM_EDITBOX.fill(usernameStr);
+        await this.PASSWORDWFM_EDITBOX.fill(password);
+        await this.WFMLOGIN_BUTTON.click()
+
+        //await this.page.pause();
+
+    }
+    async logininASManager(): Promise<void> {
+        await this.USERNAMEWFM_EDITBOX.fill(testConfig.WFMMgrUSername);
+        await this.PASSWORDWFM_EDITBOX.fill(testConfig.WFMMgrPassword);
+        await this.WFMLOGIN_BUTTON.click()
+
+        //await this.page.pause();
 
     }
 
