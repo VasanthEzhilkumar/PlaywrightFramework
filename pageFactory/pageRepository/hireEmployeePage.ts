@@ -590,3 +590,9 @@ export class hireEmployeePage {
 
 
 }
+
+
+await page.getByPlaceholder('DD').click();
+await page.getByLabel('Calendar', { exact: true }).click();
+await page.getByPlaceholder('YYYY').click();
+await page.getByPlaceholder('MM').click();
